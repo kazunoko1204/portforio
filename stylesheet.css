@@ -108,3 +108,24 @@
   display: inline-block;
   padding:  50px 50px 100px 250px;
 }
+
+.contact-wrapper{
+  background:rgb(224, 224, 224);
+}
+
+.contact-text h1{
+  text-align:center;
+  color: rgb(224, 224, 224);
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  padding-top:120px;
+}
+
+.contact-text p{
+  text-align:center;
+}
+
+.contact-mail p{
+  text-align:center;
+  padding-bottom:120px;
+}
