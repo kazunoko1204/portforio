@@ -5,18 +5,19 @@
     <title>Portforio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <header>
       <div class="header-contents">
         <div class="header-text">
-          <h4 class="header-profile">PROFILE</h4>
+          <a href="#h-profile"><h4 class="header-profile">PROFILE</h4></a>
         </div>
         <div class="header-text">
-          <h4 class="header-skill">SKILL</h4>
+          <a href="#h-skill"><h4 class="header-skill">SKILL</h4></a>
         </div>
         <div class="header-text">
-          <h4 class="header-contact">CONTACT</h4>
+          <a href="#h-contact"><h4 class="header-contact">CONTACT</h4></a>
         </div>
       </div>
     </header>
@@ -26,7 +27,7 @@
         <p>PORTFORIO</p>
       </div>
     </div>
-    <div class="profile-wrapper">
+    <div class="profile-wrapper" id="h-profile">
       <h1>PROFILE</h1>
       <div class=pic_text>
         <div>
@@ -46,7 +47,7 @@
         </div>
       </div>
     </div>
-    <div class="skill-wrapper">
+    <div class="skill-wrapper" id="h-skill">
       <div class="skill-text">
         <h1>SKILL</h1>
         <p>オープン系言語は実務未経験で日々独学しております！<br>
@@ -105,7 +106,7 @@
       </div>
     </div>
     <footer>
-      <div class="contact-wrapper">
+      <div class="contact-wrapper" id="h-contact">
         <div class="contact-text">
           <h1>CONTACT</h1>
           <p>お問い合わせはメールでお願い致します。</p>
@@ -119,5 +120,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
